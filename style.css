@@ -1,0 +1,325 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html{
+	font-size:100%;
+}
+
+p,a,h1,h2,h3,h4,h5,span{
+	font-family: "Century Gothic";
+	font-weight: 100;
+}
+
+h1,h2,h3,h4,h5,span,a,#readmore{
+	color:#94C11E;
+	letter-spacing:-2px;
+}
+
+h1,h2:not(.footer-h2),h3,h4,h5,p:not(.notCentered){
+	text-align: center;
+}
+
+.contact-text{
+	text-align:left;
+}
+
+h1{
+	font-size:4vw;
+	letter-spacing:-2px;
+	margin-top:3%;
+}
+
+h2{
+	font-size:2vw;
+	margin-top:2%;
+}
+
+#container{
+	width:100%;
+	height:0px;
+}
+
+.page{
+	width:100%;
+	height:17%;
+}
+
+header{
+	width:100%;
+	position:absolute;
+	z-index:2;
+}
+
+nav{
+	width:45%;
+	margin: 5% 6% 0px 0px;
+	float:right;
+}
+
+ul{
+	float:right;
+}
+
+li{
+	display:inline-block;
+	margin-left:1vw;
+	margin-right:1vw;
+}
+
+a{
+	color:#E1DFE0;
+	text-decoration:none;
+	font-size:1vw;
+}
+
+p{
+	font-size:1vw;
+}
+
+#logo-text{
+	margin: 4% 0px 0px 6%;
+	width:18%;
+	float:left;
+}
+
+#top-logo{
+	width:14%; height:auto;
+	vertical-align:middle;
+	overflow:hidden;
+}
+
+#text-logo{
+	font-size:2vw;
+	padding-left:1%;
+	vertical-align:middle;
+	color:#FEFEFD;
+}
+
+.background-img{
+	width:100%;
+	height:auto;
+	z-index:-1;
+}
+
+#page1{
+	position:relative;
+	width:100%;
+}
+
+#inner-logo{
+	width:100%;
+	height:19%;
+	position:absolute;
+	top:0;
+	z-index:1;
+}
+
+#inner-logo img{
+	width:18%;
+	height:auto;
+	padding-left:40%;
+	padding-top:20%;
+}
+
+#page2{
+	margin-top:15%;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.paragraph{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:3%;
+}
+
+.button {
+    background-color: #95C21F;
+	color: white;
+    border: none;
+	border-radius: 2px;
+    padding: 1% 1%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1vw;
+    cursor: pointer;
+	z-index:1;
+}
+
+.button-box{
+	height:5%;
+	text-align: center;
+	margin-top:5%;
+	z-index:1;
+	
+}
+
+#about-table{
+	width:100%;
+}
+
+#about-table th{
+	width:25%;
+}
+
+#about-table h3{
+	font-size:1vw;
+}
+
+.table-box{
+	margin-top:6%;
+}
+
+#sustainable-table{
+	width:100%;
+}
+
+#sustainable-table th{
+	width:33%;
+	padding-bottom:1%;
+}
+
+#sustainable-table h3{
+	font-size:1vw;
+}
+
+#page4{
+	position:relative;
+	width:100%;
+}
+
+#vesta-logo{
+	width:100%;
+}
+
+.logo-box{
+	width:10%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:3%;
+	margin-bottom:2%;
+}
+
+#background-box{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	margin-top:4%;
+	z-index:-1;
+}
+
+#vesta-back{
+	width:100%;
+}
+
+#vesta-phone{
+	margin-top:8.7%;
+}
+
+.slideshow-container {
+	width:100%;
+	position: relative;
+	
+}
+
+.text {
+	color: #f2f2f2;
+	font-size: 1vw;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 40%;
+	width: 100%;
+	text-align: center;
+}
+.slide-inner-img{
+	width:40%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:2%;
+}
+
+.dot {
+	cursor:pointer;
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+	background-color: #717171;
+}
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+footer{
+	width:100%;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+footer ul {
+	margin-right:1%;
+}
+
+.footer-box{
+	float:left;
+}
+.footer-h2{
+	margin-bottom:20px;
+}
+
+#contact{
+	width:33%;
+	margin-right:6%;
+	margin-bottom:5%;
+}
+
+#contact table{
+	width:100%;
+	text-align:left;
+}
+
+#blog{
+	width:32%;
+	margin-right:6%;
+	margin-bottom:5%;
+}
+
+#awards{
+	width:13%;
+	margin-bottom:5%;
+}
+
+#copyright{
+	clear:both;
+	width:100%;
+}
+
+#blog-text{
+	margin-bottom:10px;
+}
